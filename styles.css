@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(23, 28, 57);
+  color: rgb(163, 202, 239);
+  font-family: 'Source Code Pro', 'JetBrains Mono', 'Cascadia Code';
+  margin: 20px;
+}
+details p {
+  margin: 0;
+  padding-left: 20px;
+  padding-top: 20px;
+  list-style-type: disc;
+}
+
+a {
+  color: rgb(163, 202, 239);
+  text-decoration: none;
+}
+
+nav ul {
+  padding: 0;
+}
+
+li.navbar {
+  list-style-type: none;
+}
+
+
+li a {
+  padding: 2px;
+}
+
