@@ -1,13 +1,12 @@
 body {
-  background-color: rgb(149, 175, 236);
-  color: black;
-  font-family: 'JetBrains Mono', 'Cascadia Code', 'Source Code Pro';
+  background-color: rgb(41, 40, 40);
+  color: white;
+  font-family: 'JetBrains Mono', 'Cascadia Code', 'Source Code Pro', monospace;
   margin: 20px;
   font-size: 18px;
 }
 
-details p,
-h3 {
+h3.certificados {
   margin: 10px;
   padding-left: 10px;
   list-style-type: disc;
@@ -16,15 +15,19 @@ h3 {
 
 button {
   padding: 10px;
-  border-radius: 15%;
   background-color: rgb(207, 228, 230);
   color: black;
   margin: 5px;
+  border-radius: 5px;
 }
 
 a {
+  color: white;
+  /* text-decoration: none; */
+}
+
+button a {
   color: black;
-  text-decoration: none;
 }
 
 details li {
