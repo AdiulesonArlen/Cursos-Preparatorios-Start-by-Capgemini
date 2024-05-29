@@ -1,31 +1,46 @@
 body {
-  background-color: rgb(23, 28, 57);
-  color: rgb(163, 202, 239);
-  font-family: 'Source Code Pro', 'JetBrains Mono', 'Cascadia Code';
+  background-color: rgb(149, 175, 236);
+  color: black;
+  font-family: 'JetBrains Mono', 'Cascadia Code', 'Source Code Pro';
   margin: 20px;
+  font-size: 18px;
 }
-details p {
-  margin: 0;
-  padding-left: 20px;
-  padding-top: 20px;
+
+details p,
+h3 {
+  margin: 10px;
+  padding-left: 10px;
   list-style-type: disc;
+  /* text-align: center; */
+}
+
+button {
+  padding: 10px;
+  border-radius: 15%;
+  background-color: rgb(207, 228, 230);
+  color: black;
+  margin: 5px;
 }
 
 a {
-  color: rgb(163, 202, 239);
+  color: black;
   text-decoration: none;
 }
 
-nav ul {
-  padding: 0;
+details li {
+  margin-left: 20px;
 }
 
-li.navbar {
-  list-style-type: none;
+img {
+  margin-left: 20px;
+  width: 90%;
+  text-align: center;
 }
 
-
-li a {
-  padding: 2px;
+details summary {
+  font-weight: bolder;
 }
 
+p {
+  text-align: justify;
+}
