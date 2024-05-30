@@ -2,7 +2,8 @@ body {
   background-color: rgb(41, 40, 40);
   color: white;
   font-family: 'JetBrains Mono', 'Cascadia Code', 'Source Code Pro', monospace;
-  margin: 20px;
+  margin-left:10%;
+  margin-right: 10%;
   font-size: 18px;
 }
 
@@ -19,6 +20,32 @@ button {
   color: black;
   margin: 5px;
   border-radius: 5px;
+}
+
+.kanban-quadro {
+  width: 100%;
+  background-color: rgb(30, 67, 81);
+  display: flex;
+  height: 400px;
+  justify-content: space-between;
+  border-radius: 10px;
+  color: black;
+}
+
+.kanban-stage {
+  width: 25%;
+  background-color: white;
+  border: black solid 1px;
+  border-radius: 10px;
+}
+
+.kanban-stage h3 {
+  color: black;
+  margin-top: 0;
+  text-align: center;
+  border: solid 1px;
+  border-radius: 10px;
+  font-size: 16px;
 }
 
 a {
